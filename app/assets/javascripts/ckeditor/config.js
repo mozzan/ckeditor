@@ -33,6 +33,16 @@ CKEDITOR.editorConfig = function( config )
 
   config.allowedContent = true;
 
+  config.basicEntities = false;
+
+  config.entities = false;
+
+  config.resize_enabled = false;
+
+  config.entities_latin = false;
+
+  config.entities_greek = false;
+
   // Toolbar groups configuration.
   config.toolbar = [
     // { name: 'document', groups: [ 'mode', 'document', 'doctools' ], items: [ 'Source'] },
